@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Additive_Caesar_Cipher.jnlp">
+  <information>
+    <title>Additive_Caesar_Cipher</title>
+    <vendor>Hkobir</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Additive_Caesar_Cipher.jar" size="376157" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Additive_Caesar_Cipher" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="additive_caesar_cipher.Additive_Caesar_Cipher"  name="Additive_Caesar_Cipher" />
+  <update check="always"/>
+</jnlp>

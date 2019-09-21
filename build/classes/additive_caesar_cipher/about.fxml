@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="321.0" style="-fx-border-width: 4px; -fx-border-color: green; -fx-border-radius: 0px 50px 0px 50px;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="additive_caesar_cipher.AboutController">
+   <children>
+      <Text fill="#6e15c6" layoutX="104.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hidden Eyes">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="31.0" fitWidth="51.0" layoutX="123.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Picture1.png" />
+         </image>
+      </ImageView>
+      <Text fill="#793f0c" layoutX="35.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version : 3.0.0.1">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#793f0c" layoutX="85.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright  (c) :  HKobir">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#793f0c" layoutX="33.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description : Generate secure text from plaintext">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#793f0c" layoutX="85.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email : hkobir10@gmail.com">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="101.0" fitWidth="132.0" layoutX="84.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pro_pic.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
